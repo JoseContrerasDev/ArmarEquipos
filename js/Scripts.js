@@ -80,7 +80,7 @@ function mostrarEquipos(equipo, numeroEquipo, promedioHabilidad) {
     <h2>Equipo ${numeroEquipo}</h2>
     <h3>Promedio de Habilidad: ${promedioHabilidad.toFixed(2)}</h3>
     <ul>
-      ${equipo.map(jugador => `<li>${jugador.nombre} - Habilidad: ${jugador.habilidad}</li>`).join('')}
+      ${equipo.map(jugador => `<li>${jugador.nombre}`).join('')}
     </ul>
   `;
 
