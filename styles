@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #afafaf;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-section label {
+    margin-right: 10px;
+  }
+  
+  .input-section input[type="number"],
+  .input-section button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-section button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .jugadores-section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #contenedorEquipos {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #contenedorEquipos > div {
+    flex-basis: 48%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #contenedorEquipos h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  #contenedorEquipos h3 {
+    margin-top: 5px;
+    color: #666;
+  }
+  
