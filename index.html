@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Armar Equipos de Fútbol</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+  <div class="container">
+    <h1>Armar Equipos de Fútbol</h1>
+
+    <div class="input-section">
+      <label for="cantidadJugadores">Cantidad de Jugadores:</label>
+      <input type="number" id="cantidadJugadores" min="1" max="20" value="5">
+      <button onclick="generarJugadores()">Generar Jugadores</button>
+    </div>
+
+    <div class="jugadores-section">
+      <h2>Jugadores Disponibles</h2>
+      <ul id="jugadores">
+        <!-- Lista de jugadores -->
+      </ul>
+    </div>
+    
+    <div class="input-section">
+      <label for="cantidadEquipos">Cantidad de Equipos:</label>
+      <input type="number" id="cantidadEquipos" min="2" max="10" value="2">
+      <button onclick="formarEquipos()">Formar Equipos</button>
+    </div>
+
+    <!-- Contenedor dinámico para mostrar equipos -->
+    <div id="contenedorEquipos">
+      <!-- Equipos se añadirán aquí dinámicamente -->
+    </div>
+  </div>
+
+  <script src="scripts.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
